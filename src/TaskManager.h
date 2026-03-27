@@ -2,6 +2,7 @@
 #define TASKMANAGER_H
 
 #include <vector>
+#include <string>
 #include "task.h"
 
 class TaskManager {
