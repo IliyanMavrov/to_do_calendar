@@ -9,10 +9,8 @@ private:
     bool completed;
 
 public:
-    // Constructor
     Task(const std::string& title);
 
-    // Methods
     void markCompleted();
     std::string getTitle() const;
     bool isCompleted() const;
