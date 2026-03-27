@@ -5,7 +5,7 @@ Task::Task(const std::string& title)
     : title(title), completed(false) {}
 
 // Mark task as completed
-void Task::markCompleted {
+void Task::markCompleted() {
     completed = true;
 }
 

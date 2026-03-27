@@ -1,4 +1,4 @@
-
+#include <string>
 
 class Task {
 public:
@@ -7,3 +7,10 @@ public:
 
     Task(std::string t) : title(t), completed(false) {}
 };
+
+#include <iostream>
+
+int main() {
+    std::cout << "Works!\n";
+    return 0;
+}
